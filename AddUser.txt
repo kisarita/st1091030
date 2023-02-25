@@ -4,11 +4,13 @@
 
 ''SCRIPT
 
+''Test cases for phase 1
+
 ''Valid input
-AddUser "dsmith", "password", "Peter", "Smith", "ABC", "416-456-0000", "jsmith@sample.com"
+AddUser "dsmith", "password", "BOBIK", "Smith", "ABC", "123-456-0000", "jsmith@sample.com"
 
 ''Invalid input - missing Username
-AddUser "", "password", "Ron", "Smith", "ABC", "416-456-0000", "rsmith@sample.com"
+AddUser "", "password", "Ron", "Smith", "ABC", "416-123-0000", "rsmith@sample.com"
 
 ''Invalid input - missing password
-AddUser "rnmith", "", "Ron", "Smith", "ABC", "416-456-0000", "rsmith@sample.com"
+AddUser "rnmith", "", "Ron", "Smith", "ABC", "416-456-1234", "rsmith@sample.com"
