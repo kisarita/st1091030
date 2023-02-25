@@ -15,6 +15,9 @@ AddUser "", "password", "Ron", "Smith", "ABC", "416-123-0000", "rsmith@sample.co
 ''Invalid input - missing password
 AddUser "rnmith", "", "Ron", "Smith", "ABC", "416-456-1234", "rsmith@sample.com"
 
-extra bits added to test the difference :)
+''extra bits added to test the difference :)
 
-ok this is for the 3rd change
+''ok this is for the 3rd change
+
+''Invalid input - invalid email
+AddUser "jsmith", "password", "John", "Smith", "ABC", "416-456-0000", "jsmithsample.com"
